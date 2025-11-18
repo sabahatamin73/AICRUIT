@@ -28,7 +28,7 @@ const Navbar = ({ variant = 'default', onFeedback, onLogout }) => {
     );
   }
 
-  if (variant === 'dashboard') {
+  if (variant === 'dashboard' || variant ==='candidate-drop-cv') {
     return (
       <nav className="bg-white border-b border-gray-200 px-8 py-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
